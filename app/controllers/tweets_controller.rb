@@ -20,6 +20,8 @@ class TweetsController < ApplicationController
     else
       render :edit
     end
+
+    # now it's better
   end
 
   def show
