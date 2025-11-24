@@ -72,3 +72,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# added
+gem "ruby_llm", "~> 1.2.0"
+
+gem "devise"
