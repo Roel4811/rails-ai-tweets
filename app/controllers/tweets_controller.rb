@@ -34,3 +34,7 @@ class TweetsController < ApplicationController
     params.require(:tweet).permit(:long)
   end
 end
+
+def index
+  @tweet = Tweet.all
+end
